@@ -16,7 +16,7 @@
 title: Binary Poet
 email: birchsport@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My new home
+  I'm just a dev, standing on front of the code, asking it to love me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: birchsport
@@ -24,7 +24,7 @@ github_username:  birchsport
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 
