@@ -6,5 +6,3 @@ layout: home
 ---
 
 I am highly motivated and make a concerted effort to stay at the front of my field to the best of my ability. Besides my family, my main outside work activities are researching new technologies and products, implementing new software concepts, and when possible, contributing back to the open-source community.
-
-I have a very strong passion for semantic web technologies. I am an evangelist for the need to connect data with relationships allowing for data emergence.
