@@ -3,20 +3,27 @@ layout: default
 ---
 
 <div class="home">
+  <table>
+    <tr>
+      <td width="45%">
+        {{ content }}
+      </td>
+      <td width="10%">
+      </td>
+      <td valign="top">
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+          </li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+  </table>
 </div>
