@@ -6,3 +6,5 @@ layout: home
 ---
 
 I am highly motivated and make a concerted effort to stay at the front of my field. Besides my family, my main outside work activities are researching new technologies and products, implementing new software concepts, and when possible, contributing back to the open-source community.
+
+Over 20 years experience in architecture and development of intelligence-related and commercial software applications, primarily using Java, Scala, and semantic ontology technologies.
